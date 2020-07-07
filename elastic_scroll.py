@@ -9,7 +9,6 @@ es = Elasticsearch('https://elasticsearch-saps.saude.gov.br',
 index = 'esusve-go'
 
 query = {
-    "size":100000,
     "query":{
         "match_all":{}
     }
